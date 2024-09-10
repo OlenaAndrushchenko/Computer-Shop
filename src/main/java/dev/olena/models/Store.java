@@ -10,6 +10,30 @@ public class Store {
     private String storeTaxIdentifier;
     private List<Computer> computers;
 
+    public String getStoreNumber() {
+        return storeNumber;
+    }
+
+    public void setStoreNumber(String storeNumber) {
+        this.storeNumber = storeNumber;
+    }
+
+    public String getStoreOwner() {
+        return storeOwner;
+    }
+
+    public void setStoreOwner(String storeOwner) {
+        this.storeOwner = storeOwner;
+    }
+
+    public String getStoreTaxIdentifier() {
+        return storeTaxIdentifier;
+    }
+
+    public void setStoreTaxIdentifier(String storeTaxIdentifier) {
+        this.storeTaxIdentifier = storeTaxIdentifier;
+    }
+
     public Store(String storeNumber, String storeOwner, String storeTaxIdentifier) {
         this.storeNumber = storeNumber;
         this.storeOwner = storeOwner;
